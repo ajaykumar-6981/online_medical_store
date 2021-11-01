@@ -1,0 +1,44 @@
+:root{
+    --lg-lightcolor:linear-gradient(to left, rgba(116,121,112,212),rgba(112,141,152,222));
+
+}
+
+.heading{
+    background-color:grey;
+    color:white;
+    text-align: center;
+}
+.formbox{
+    margin:20px 50px;
+    background-color: lightgrey;
+    padding:8px;
+    text-align: center;
+}
+input{
+    width: 400px;
+    font-style: italic;
+    padding-left: 5px;
+}
+.container{
+    background: var(--lg-lightcolor);
+
+    }
+.btn{
+    background: var(--lg-lightcolor);
+}  
+.form-contol input:focus{
+    outline: 0;
+    border-color:#777;
+} 
+.form-contol.success input{
+    border-color:#2ecc71;
+} 
+.form-contol.error input{
+    border-color:#e74c3c;
+}
+.form-contol small {
+    color:#e74c3c;
+    position: absolute;
+    left: 0px;
+    visibility: hidden;
+}
